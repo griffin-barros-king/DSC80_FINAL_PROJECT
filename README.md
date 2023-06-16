@@ -5,9 +5,13 @@ The prediction problem I am looking at is predicting the duration of a power out
 I decided to use accuracy for the project as it would be important to get this absolutely right every time. If we incorrectly predicted short when it was long, there would not be enough preparations and could cause greater issues. If it were to be the opposite, however, or even if we predicted medium in that case. there might be some misguidance of resources and supply issues that would be cause artificially because of the prediction. I also feel that accuracy is more valuable when looking at multiclass classifications.
 
 
+
+
 **Baseline Model:**
 
 my baseline model takes into consideration the population of the place where the outage occured, the percent of the population that was urban, and the cause of the power outage. The first two are quantitative and the last is nominal.  For the baseline I left the Quantitative alone and I one-hot-encoded the causes of the power outages. I used a KNeighbors classifier with the default 5 neighbors. the training accuracy was 49.32% whichis not great, but at least not too high to imply overfitting, but the testing accuracy was a mear 48.51%. This poor testing accuracy implies that the model would not be very useful in the case of an emergency. It is basically the same as guessing blindly. I believe part of this is due to the raw population data begin used. and also the kneighbors classifier not looking deep enough.
+
+
 
 
 **Final Model:**
@@ -23,6 +27,8 @@ to visualize the difference models and their accuracies here are the confusion m
 **FINAL MODEL CONF MATRIX:**
 
 ![A confusion matrix for my Final model](https://github.com/griffin-barros-king/DSC80_FINAL_PROJECT/blob/main/Final_Model_Conf_Matrix.png)
+
+
 
 **Fairness Analysis:**
 
