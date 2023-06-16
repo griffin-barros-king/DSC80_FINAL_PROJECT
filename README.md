@@ -16,3 +16,6 @@ My choices for group X and Y were the first and second half of the year for when
 the resulting p value was 0.497. My conclusion is that I fail to reject the null hypothesis. According to my test I conclude that my model is fair.
 
 
+![A confusion matrix for my baseline model](https://github.com/griffin-barros-king/DSC80_FINAL_PROJECT/blob/main/Baselin_Model_Conf_Matrix.png)
+
+![A confusion matrix for my Final model](https://github.com/griffin-barros-king/DSC80_FINAL_PROJECT/blob/main/Final_Model_Conf_Matrix.png)
