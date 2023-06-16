@@ -14,9 +14,11 @@ One of the features I added was a StdScaler transform on the population. I did t
 to visualize the difference models and their accuracies here are the confusion matrices for both models:
 
 BASELINE MODEL:
+
 ![A confusion matrix for my baseline model. if this fails, but you still want to look at the images, the repository is public and the images are visible their](https://github.com/griffin-barros-king/DSC80_FINAL_PROJECT/blob/main/Baselin_Model_Conf_Matrix.png)
 
 FINAL MODEL:
+
 ![A confusion matrix for my Final model](https://github.com/griffin-barros-king/DSC80_FINAL_PROJECT/blob/main/Final_Model_Conf_Matrix.png)
 
 Fairness Analysis:
